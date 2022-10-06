@@ -2,18 +2,24 @@
 title: "Joint Attention Feature Extraction"
 output: html_notebook
 ---
-Steps:
+# Steps:
 
 Preprocessing
+
 1- Run the functions' definition
+
 2- Run "Reading the TAOI Details from a csv file" chunk
+
 3- Set the path in "Getting all file names and setting the paths" chunk and run it 
+
 
 PostProcessing
 5- Run "Getting all file names" chunk. This chunk read the csv files which were generated in the Preprocessing step. 
+
 6- Run "Reading files and applying main functions, for the first feature extraction step, on them" chunk. This chunk produce the features in csv file for each subject.
+
 7- Run the "Running circle count driver function and calculating the run time" chunk
-8- adding dxj??
+
 
 
 Note: 
