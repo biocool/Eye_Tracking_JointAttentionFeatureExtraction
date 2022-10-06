@@ -4,7 +4,7 @@ output: html_notebook
 ---
 # Steps:
 
-Preprocessing
+## Preprocessing
 
 1- Run the functions' definition
 
@@ -13,7 +13,9 @@ Preprocessing
 3- Set the path in "Getting all file names and setting the paths" chunk and run it 
 
 
-PostProcessing
+## PostProcessing
+
+
 5- Run "Getting all file names" chunk. This chunk read the csv files which were generated in the Preprocessing step. 
 
 6- Run "Reading files and applying main functions, for the first feature extraction step, on them" chunk. This chunk produce the features in csv file for each subject.
